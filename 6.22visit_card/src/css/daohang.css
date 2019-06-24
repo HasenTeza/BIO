@@ -1,0 +1,170 @@
+/*@import url(./b.css);*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    background: #efefef;
+}
+a{
+    text-decoration: none;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*上面不要看*/
+/****************
+     导航S
+****************/
+.topNavBar{
+    background-color: transparent;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.topNavBar_in{
+    height:40px;
+    padding: 15px 16px 20px 16px;
+}
+.topNavBar .logo img{
+    padding: 15px 16px 20px 16px;
+    height:40px;
+    width: 88px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+ .topNavBar nav ul>li{
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+ .topNavBar nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ .topNavBar nav ul>li>a{
+    border-bottom: 3px solid transparent;
+}
+ .topNavBar nav ul>li>a:hover{
+    border-bottom-color: #dc3140;
+}
+ .topNavBar nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+ .topNavBar nav{
+     float: right;
+     font-size: 15px;
+     padding-top: 18px;
+     padding-bottom: 8px;
+ }
+/****************
+    导航E
+****************/
+
+
+/****************
+     个人名片S
+****************/
+.banner {
+    height: 515px;
+    background-image: url(./../img/cover.png);
+    background-position: center center;
+    background-size: cover;
+}
+.banner .mask {
+    height: 515px;
+    background-color: rgba(75, 75, 75, 0.8);
+}
+.user_card {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+.user_card .welcome {
+    background: #e6686a;
+    color: white;
+    display: inline-block;
+    padding: 4px 16px;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.user_card .welcome .triangle {
+    display: block;
+    border: 10px solid transparent;
+    width: 0px;
+    border-left-color: #e6686a;
+    border-top-width: 0px;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+}
+.user_card .picture {
+    float: left;
+}
+.user_card .text {
+    float: left;
+    margin-left: 65px;
+    width: 470px;
+}
+.user_card .text h1{
+    margin-top: 18px;
+}
+.user_card .text hr{
+    margin: 20px 0;
+}
+.user_card .pictureAndText {
+    padding: 50px;
+}
+.user_card dl dt,
+.user_card dl dd{
+    float: left;
+    padding: 5px 0;
+}
+.user_card dl dt{
+    width: 30%;
+    font-weight: bold;
+}
+.user_card dl dd{
+    width: 70%;
+    color: #9da0a7;
+}
+
+.user_card > footer.media{
+    background: #E6686A;
+    text-align: center;
+}
+.user_card > footer.media > a{
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    padding: 5px 0;
+    border-radius: 50%;
+    margin: 16px;
+}
+.user_card > footer.media > a:hover{
+    background: #CF5D5F;
+}
+.user_card svg{
+    width: 30px;
+    height: 30px;
+    fill: #ff2021;
+    vertical-align: top;
+}
+
+
+
+
+
+/****************
+     个人名片E
+****************/
