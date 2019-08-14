@@ -1,0 +1,53 @@
+.site_welcome{
+	display: none;
+	position: fixed;
+	top: 0; left: 0; width: 100%; height: 100%;
+	background: #333;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.site_welcome.active{
+	display: flex;
+}
+.loading{
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+.loading::before,.loading::after {
+  content:'';
+position: absolute;
+
+width: 10px;
+height: 10px;
+background: black;
+border-radius: 50%;
+/*变成圆*/
+right: 0;
+left: 0;
+top: 0;
+bottom: 0;
+margin: auto;
+/*位置居中*/
+animation: s 1.5s linear infinite;
+}
+.loading::after{
+	animation-delay: 0.75s;
+}
+@keyframes s{
+	0%{
+		width: 0px;
+		height: 0px;
+		opacity: 1;
+	}
+	100%{
+		width: 100px;
+		height: 100px;
+		opacity: 0;
+	}
+}
+content{
+	background: red;
+}

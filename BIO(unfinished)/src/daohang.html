@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简历导航</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/daohang.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <script src="//at.alicdn.com/t/font_1256349_ki8vmibyoc.js"></script>
+</head>
+
+<body>
+<!-- 加载等待S -->
+<div id="siteWelcome" class="site_welcome active">
+    <div class="loading"></div>
+</div>
+<!-- 加载等待E -->
+
+<!--导航S-->
+<!--div.topNavBar>a.logo>img.cl^+nav >ul>li.d$*9>a.b$-->
+<div id="topNavBar" class="topNavBar clearfix">
+    <div class="topNavBar_in">
+        <a href="#" class="logo">
+            <img src="img/cl.png" alt="" class="cl">
+        </a>
+        <nav class="menu">
+            <ul class="clearfix">
+                <li class="about">
+                    <a href="#siteAbout" class="b1">关于</a>
+                </li>
+                <li class="d">
+                    <a href="#siteSkills" class="b2">技能</a>
+                </li>
+                <li class="lists">
+                    <a href="#siteWorks" class="b3">作品</a>
+                    <ul class="menus">
+                        <li>个人简历</li>
+                        <li>至富通</li>
+                        <li>一盆社区</li>
+                    </ul>
+                </li>
+                <li class="lists">
+                    <a href="#" class="b4">博客</a>
+                    <ul class="menus">
+                        <li>博客1</li>
+                        <li>博客2</li>
+                        <li>博客3</li>
+                    </ul>
+                </li>
+                <li class="d"><a href="#" class="b5">日历</a></li>
+                <li class="d"><a href="#" class="b6">联系方式</a></li>
+                <li class="d"><a href="#" class="b7">其他</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!--导航E-->
+
+<!--个人名片S-->
+<div class="banner">
+    <div class="mask" id="siteAbout"></div>
+</div>
+<main>
+    <div class="user_card">
+        <div class="pictureAndText clearfix" style="margin-top: -320px;">
+            <div class="picture">
+                <img src="./img/avatar.png" alt="头像" width="299" height="347">
+            </div>
+            <div class="text">
+                    <span class="welcome">Hello
+                    <sapn class="triangle"></sapn></span>
+                <h1><b>初露</b></h1>
+                <p>前端开发工程师</p>
+                <hr>
+                <dl>
+                    <dt>年龄：</dt>
+                    <dd>25</dd>
+                    <dt>所在城市：</dt>
+                    <dd>北京</dd>
+                    <dt>邮箱：</dt>
+                    <dd>hasenchulu@foxmail.com</dd>
+                    <dt>手机：</dt>
+                    <dd>18346130000</dd>
+                </dl>
+            </div>
+        </div>
+        <footer class="media">
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-yanzheng-jianshu"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixin"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-youxiang"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-github"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-shejiao-yinxiangbiji"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weibo"></use>
+                </svg>
+            </a>
+        </footer>
+    </div>
+    <p class="downloadResume-wrapper">
+        <a class="downloadResume" href="./img/download.md" target="_blank" download>下载 PDF 简历</a>
+    </p>
+    <p class="selfIntroduction">
+        你好！ 我是初露。专注于前端开发的高级Web开发人员。<br>
+        具有Web项目开发周期的所有阶段经验。
+    </p>
+
+</main>
+<!--个人名片E-->
+
+
+<!--技能進度條S-->
+<section class="skills" id="siteSkills">
+    <h2>技能</h2>
+    <ol class="clearfix">
+        <li>
+            <h3>
+                HTML 5 &amp; CSS 3
+            </h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 95%;"></div>
+            </div>
+        </li>
+        <li>
+            <h3>
+                JavaScript
+            </h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 80%"></div>
+            </div>
+        </li>
+        <li>
+            <h3>
+                jQuery
+            </h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 60%"></div>
+            </div>
+        </li>
+        <li>
+            <h3>
+                Vue.js
+            </h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 80%"></div>
+            </div>
+        </li>
+        <li>
+            <h3>
+                React.js
+            </h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 30%"></div>
+            </div>
+        </li>
+        <li>
+            <h3>
+                Node.js
+            </h3>
+            <div class="progressBar">
+                <div class="progress" style="width: 20%"></div>
+            </div>
+        </li>
+    </ol>
+</section>
+<!--技能进度条E-->
+
+
+<!--滚动条三张图S-->
+<section class="portfolio" id="siteWorks">
+    <h2>作品集</h2>
+    <nav>
+        <ol class="clearfix">
+            <li id="portfolio1">所有</li>
+            <li id="portfolio2">框架</li>
+            <li id="portfolio3">原生JS&amp;CSS</li>
+        </ol>
+        <div id="portfolioBar" class="bar state-1">
+            <div class="bar-inner"></div>
+        </div>
+    </nav>
+    <script>
+        portfolio1.onclick = function () {
+            portfolioBar.className = 'bar state-1'
+        }
+        portfolio2.onclick = function () {
+            portfolioBar.className = 'bar state-2'
+        }
+        portfolio3.onclick = function () {
+            portfolioBar.className = 'bar state-3'
+        }
+    </script>
+
+
+    <div class="works" style="height: 597px;">
+        <div class="big" style="top: 0; left: 0;">
+            <img src="./img/1.jpg" alt="作品1">
+        </div>
+        <div class="small" style="top: 0; left: 645px;">
+            <img src="./img/2.jpg" alt="作品2">
+        </div>
+        <div class="small" style="top: 312px; left: 645px;">
+            <img src="./img/3.jpg" alt="作品3">
+        </div>
+    </div>
+
+</section>
+<!--滚动条三张图E-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.4.0/Tween.min.js"></script>
+<script>
+    //loading animation 【等待的加载圆点动画（加载动画）】
+    setTimeout(function () {
+        siteWelcome.remove()
+    }, 1000)
+    //siteWelcome.classList.remove('active')
+
+    //sticky navbar 【粘性的导航条】
+    window.onscroll = function (x) {
+        if (window.scrollY > 0) {
+            topNavBar.classList.add('sticky')
+        } else {
+            topNavBar.classList.remove('sticky')
+        }
+    }
+
+    //sticky navbar 【粘性的导航条】的下拉菜单
+    let liaTags = document.getElementsByClassName('lists')
+    for (let i = 0; i < liaTags.length; i++) {
+        liaTags[i].onmouseenter = function (x) {
+            x.currentTarget.classList.add('active')
+        }
+        liaTags[i].onmouseleave = function (x) {
+            x.currentTarget.classList.remove('active')
+        }
+    }
+
+    //sticky navbar 【粘性的导航条】的下拉菜单
+    //    let aTags=document.getElementsByClassName('lists')
+    //   for(let i=0;i<aTags.length;i++){//有下拉菜单的项目遍历出来
+    //        aTags[i].onmouseenter=function (x) {//监听鼠标触摸事件
+    //            let a=x.currentTarget//提取参数中的监听数据（点击位置不同，监听数据和操作数据可能会不一样）
+    //            let brother=a.nextSibling//寻找兄弟，可能时空阁，所以用nodetype判断
+    //            while (brother.nodeType===3){//brother.tagName!=='UL'
+    //                brother=brother.nextSibling
+    //            }
+    //            brother.classList.add('active')
+    //        }
+    //        aTags.onmouseleave=function () {
+    //            let a=x.currentTarget//提取参数中的监听数据（点击位置不同，监听数据和操作数据可能会不一样）
+    //            let brother=a.nextSibling//寻找兄弟，可能时空阁，所以用nodetype判断
+    //            while (brother.nodeType===3){//brother.tagName!=='UL'
+    //                brother=brother.nextSibling
+    //            }
+    //            brother.classList.remove('active')
+    //        }
+    //   }
+
+
+    let aTags = document.querySelectorAll('nav.menu > ul > li >a')//查询括号里所有的选择器下的a标签
+    //tween需要加的看不懂的话
+    function animate(time) {
+        requestAnimationFrame(animate);
+        TWEEN.update(time);
+    }
+    //tween需要加的看不懂的话
+    requestAnimationFrame(animate);
+    for (let i = 0; i < aTags.length; i++) {//遍历出a标签，进行监听
+        aTags[i].onclick = function (x) {
+            x.preventDefault()//阻止浏览器锚点默认跳转行为
+            let a = x.currentTarget//获取监听数据
+            let href = a.getAttribute('href')//直接获取href的内容，不会获取到浏览器自行添加的URL（‘#siteAbout’）
+            let element = document.querySelector(href)
+            let top = element.offsetTop//窗口中的跳转模块到页面顶部的高度
+            //跳转导航缓慢移动【自己用逻辑写出来的】
+//            let n = 25//一共动多少次
+//            let duration=50 //多长时间动一次  5秒动25次=动一次多少秒
+//            let currenTop=window.scrollY//当前窗口距离页面顶端的高度
+//            let targetTop=top-80//窗口中的跳转模块到页面顶部的高度，调整位置-80
+//            let distance=(targetTop-currenTop)/n //相减得到需要移动的距离 除以次数得到动一次移动的距离
+//            let i=0  //i是移动的次数
+//            let id=setInterval(()=>{
+//                if (i===n){window.clearInterval(id)
+//                    return  //必须有return，不然会继续执行下面的
+//                }
+//                i=i+1
+//                window.scrollTo(0,currenTop+distance*i)
+//            },duration)
+
+
+            //跳转导航缓慢移动【tweenjs库实现的】
+            let currenTop=window.scrollY
+            let targetTop=top-80
+            let s=targetTop-currenTop
+            var coords = { y: currenTop};
+            var t= Math.abs((s/100)*300)
+            if (t>500){t=500}
+            var tween = new TWEEN.Tween(coords)
+                .to({ y: targetTop},t)
+                .easing(TWEEN.Easing.Quadratic.InOut)
+                .onUpdate(function() {
+                window.scrollTo(0,coords.y)
+                })
+                .start();
+        }
+    }
+</script>
+</body>
+</html>
